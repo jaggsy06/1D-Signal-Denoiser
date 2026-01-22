@@ -104,14 +104,3 @@ This change significantly improved denoising quality for **all three waveform ty
 
 Plots show **Clean**, **Noisy**, and **Denoised** signals for all three waveform types:
 
-```python
-plt.figure(figsize=(15, 8))
-for i in range(3):
-    plt.subplot(3,1,i+1)
-    plt.plot(test_clean[i].squeeze(), label="Clean")
-    plt.plot(test_noisy[i].squeeze(), label="Noisy", alpha=0.5)
-    plt.plot(denoised_test[i].squeeze(), label="Denoised")
-    plt.legend()
-    plt.title(f"{waveforms[i]} Wave - 1D CNN Denoiser")
-plt.tight_layout()
-plt.show()
