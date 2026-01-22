@@ -103,4 +103,4 @@ This change significantly improved denoising quality for **all three waveform ty
 ## Visual Results
 
 Plots show **Clean**, **Noisy**, and **Denoised** signals for all three waveform types:
-
+![Diagram](https://github.com/jaggsy06/1D-Signal-Denoiser/blob/main/Screenshot%202026-01-22%20at%2001.16.51.png)
