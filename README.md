@@ -1,4 +1,4 @@
-# 1D Signal Denoiser (Dense → 1D CNN)
+# 1D Signal Denoiser
 
 A neural network-based denoiser for 1D signals, capable of reducing noise in **sine, square, and sawtooth waves** with diverse noise types. This project demonstrates the evolution from a basic dense autoencoder to a **1D CNN autoencoder** that preserves sharp edges and temporal structure.
 
